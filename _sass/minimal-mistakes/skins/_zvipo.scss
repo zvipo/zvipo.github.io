@@ -1,0 +1,24 @@
+/* ==========================================================================
+   Zvipo skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #fdfdfd !default;
+$text-color: #2d3436 !default;
+$muted-text-color: #636e72 !default;
+$primary-color: #2E7D32 !default;
+$border-color: mix(#fff, #2d3436, 80%) !default;
+$footer-background-color: #2d3436 !default;
+$link-color: #2E7D32 !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $primary-color !default;
+$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+
+.page__footer {
+  color: #dfe6e9 !important;
+}
+
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
